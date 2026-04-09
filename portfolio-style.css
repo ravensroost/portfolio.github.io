@@ -3,9 +3,9 @@ html {
     font-family: 'Varela Round';
 }
 
-.left-bar {
+.left-bar div {
     background-color: #50BDC1;
-    display: grid;
+    display: flex;
     height: 100%;
     width: 20%;
 }
