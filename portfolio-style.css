@@ -3,7 +3,17 @@ html {
     font-family: 'Varela Round';
 }
 
-.left-bar div {
+header {
+    display:
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-title {
+}
+
+#left-bar div {
     background-color: #50BDC1;
     display: flex;
     height: 100%;
