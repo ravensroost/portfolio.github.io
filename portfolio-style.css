@@ -15,13 +15,18 @@ main {
 
 .container #content{
     display: grid;
-    width: auto;
-    height: auto;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 40% 40%;
     grid-template-rows: 100%;
 }
 
 #intro {
+    background-color: #5D9E55
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+article {
     background-color: #5D9E55
 }
 
