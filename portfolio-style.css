@@ -12,17 +12,19 @@ header {
 }
 
 main {
-    display: inline;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 #left-bar {
     background-color: #50BDC1;
-    width: 20%;
-    height: 100%;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
 }
 
 #intro {
     background-color: #5D9E55;
-    width: 80%;
-    height: 100%;
+    grid-column: 2 / span 4;
+    grid-row: 1 / span 3;
 }
