@@ -35,6 +35,10 @@ main {
     margin: 20px;
 }
 
+li > a {
+    font-family: "Lato";
+}
+
 #intro {
     background-color: #5D9E55;
     grid-column: 2 / span 4;
