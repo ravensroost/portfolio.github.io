@@ -1,14 +1,24 @@
+html {
+    background-color: ivory;
+}
+
 * {
     font-family: 'Varela Round';
 }
 
 header {
+    display: flex;
     background-color: #9BC49C;
     height: 20%;
     align-items: center;
     justify-content: center;
     margin: 20px;
     padding: 20px;
+}
+
+#page-title {
+    align-self: center;
+    font-family: "Yeseva One";
 }
 
 main {
@@ -21,10 +31,28 @@ main {
     background-color: #50BDC1;
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
+    padding: 5px;
+    margin: 20px;
 }
 
 #intro {
     background-color: #5D9E55;
     grid-column: 2 / span 4;
     grid-row: 1 / span 3;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #9BC49C;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+address {
+    align-self: center;
 }
