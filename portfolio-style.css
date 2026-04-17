@@ -21,7 +21,7 @@ header {
     font-family: "Yeseva One";
 }
 
-.container main {
+main.container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -61,9 +61,6 @@ address {
     align-self: center;
 }
 
-.cards main {
-}
-
 #cons-cards {
     display: flex;
     flex-wrap: wrap;
@@ -78,4 +75,8 @@ address {
     background-color: #CD8C69;
     padding: 10px;
     max-width: 400px;
+}
+
+.card > h3 {
+    text-align: center;
 }
