@@ -2,6 +2,13 @@ html {
     background-color: ivory;
 }
 
+#front-page {
+    background-color: ivory;
+    background-image: url("C:/projects/portfolio.github.io/images/IMG-8222.jpg");
+    background-size: cover;
+    opacity: 0.8;
+}
+
 * {
     font-family: 'Varela Round';
 }
@@ -14,6 +21,7 @@ header {
     justify-content: center;
     margin: 20px;
     padding: 20px;
+    opacity: 1;
 }
 
 #page-title {
@@ -25,6 +33,7 @@ main.container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    opacity: 1;
 }
 
 #left-bar {
@@ -33,6 +42,15 @@ main.container {
     grid-row: 1 / span 3;
     padding: 5px;
     margin: 20px;
+    opacity: 1;
+}
+
+#left-bar > h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
 }
 
 li > a {
@@ -56,10 +74,15 @@ footer {
     justify-content: center;
     margin: 20px;
     padding: 20px;
+    opacity: 1;
 }
 
 address {
     align-self: center;
+}
+
+address > a {
+
 }
 
 #cons-cards {
