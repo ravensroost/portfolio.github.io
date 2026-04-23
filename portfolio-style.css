@@ -59,6 +59,7 @@ li > a {
 
 a:link {
     color: blueviolet;
+    text-decoration: none;
 }
 
 a:visited {
