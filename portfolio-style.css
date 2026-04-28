@@ -15,7 +15,7 @@ html {
 
 header {
     display: flex;
-    background-color: #104911ff;
+    background-color: #548c2fff;
     height: 20%;
     align-items: center;
     justify-content: center;
@@ -78,13 +78,13 @@ a:visited {
 a:hover {
     color: brown;
     text-decoration: underline;
-    background-color: #5D9E55;
+    background-color: #548c2fff;
     box-shadow: 3px 3px 3px #394032;
 }
 
 a:active {
     color: gray;
-    background-color: #5D9E55;
+    background-color: #548c2fff;
     box-shadow: none;
 }
 
@@ -102,7 +102,7 @@ a:active {
 
 footer {
     display: flex;
-    background-color: #104911ff;
+    background-color: #548c2fff;
     opacity: 0.9;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ address > a {
 }
 
 .card {
-    background-color: #f5c396ff;
+    background-color: #f9a620ff ;
     padding: 10px;
     max-width: 400px;
     border-radius: 20px;
