@@ -15,7 +15,7 @@ html {
 
 header {
     display: flex;
-    background-color: #d0b17aff;
+    background-color: #104911ff;
     height: 20%;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@ main.container {
 }
 
 #left-bar {
-    background-color: #41521fff;
+    background-color: #548c2fff;
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
     padding: 5px;
@@ -89,7 +89,7 @@ a:active {
 }
 
 #intro {
-    background-color: #f5c396ff;
+    background-color: #f9a620ff;
     grid-column: 2 / span 4;
     grid-row: 1 / span 3;
     padding: 10px;
@@ -102,7 +102,7 @@ a:active {
 
 footer {
     display: flex;
-    background-color: #d0b17aff;
+    background-color: #104911ff;
     opacity: 0.9;
     flex-direction: column;
     justify-content: center;
