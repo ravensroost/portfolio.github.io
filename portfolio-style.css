@@ -1,9 +1,9 @@
 html {
-    background-color: ivory;
+    background-color: #f5fdc6ff;
 }
 
 #front-page {
-    background-color: ivory;
+    background-color: #f5fdc6ff;
     background-image: url("C:/projects/portfolio.github.io/images/IMG-8222.jpg");
     background-size: cover;
     opacity: 0.8;
@@ -15,7 +15,7 @@ html {
 
 header {
     display: flex;
-    background-color: #9BC49C;
+    background-color: #d0b17aff;
     height: 20%;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@ main.container {
 }
 
 #left-bar {
-    background-color: #50BDC1;
+    background-color: #41521fff;
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
     padding: 5px;
@@ -89,7 +89,7 @@ a:active {
 }
 
 #intro {
-    background-color: #5D9E55;
+    background-color: #f5c396ff;
     grid-column: 2 / span 4;
     grid-row: 1 / span 3;
     padding: 10px;
@@ -102,7 +102,7 @@ a:active {
 
 footer {
     display: flex;
-    background-color: #9BC49C;
+    background-color: #d0b17aff;
     opacity: 0.9;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ address > a {
 }
 
 .card {
-    background-color: #CD8C69;
+    background-color: #f5c396ff;
     padding: 10px;
     max-width: 400px;
     border-radius: 20px;
